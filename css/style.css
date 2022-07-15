@@ -2,6 +2,7 @@
 Colosrs used:
 Primary Color (Blue): #05676e;
 Secondary Color (Green): #489c79
+Link Color (Blue): #006fbd;
 */
 body {
   font-family: 'Manrope', sans-serif;
@@ -28,4 +29,9 @@ h3, {
 h4, {
   font-size: 16px;
   font-weight: 400;
+}
+/* links */
+a {
+  color: #0057f7;
+  font-weight: 600;
 }
