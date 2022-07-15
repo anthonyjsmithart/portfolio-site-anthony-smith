@@ -35,5 +35,19 @@ img {
 /* links */
 a {
   color: #0057f7;
-  font-weight: 600;
+  font-weight: 400;
+  text-decoration: none;
+}
+a:visited {
+  color: #4217ae
+}
+a:hover {
+  text-decoration: underline;
+}
+a:focus {
+  text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+    font-weight: 700;
 }
