@@ -105,3 +105,53 @@ a:active {
 .container {
   padding: 0 15px;
 }
+.row {
+  margin:25px 0;
+}
+/* hero */
+#hero {
+  background-color: #d8edff;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+#hero h1 {
+  text-align: center;
+  /* header */
+}
+header {
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  background-color: #d8edff;
+  -webkit-box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow:    0px 7px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow:         0px 7px 5px 0px rgba(50, 50, 50, 0.5);
+
+}
+/* navigation */
+nav > ul {
+  list-style: none;
+  padding: 0
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+}
+nav > ul > li > a:visited {
+  color: #4d4d4d;
+}
+nav {
+  display: inline-block;
+  width: 100%;
+}
+/* main */
+main {
+  padding-top: 100px;
+}
