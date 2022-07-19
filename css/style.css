@@ -98,3 +98,10 @@ a:active {
   color: #ffffff;
   border-bottom: 3px solid #000000;
 }
+* {
+  box-sizing: border-box;
+}
+/* layout styling */
+.container {
+  padding: 0 15px;
+}

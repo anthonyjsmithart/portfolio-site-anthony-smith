@@ -19,7 +19,7 @@
 
   <!-- For the header -->
   <header>
-    <div>
+    <div class="container">
       <!-- Logo -->
       <a href="#">Anthony Smith</a>
       <nav>
@@ -35,206 +35,213 @@
   <!-- main content -->
   <main>
     <!-- Hero section -->
-    <div>
-      <h1>
-        Let's Meet
-      </h1>
-      <div>
-        <picture>
-          <source srcset="img/letsMeet/cover.jpg" media="(max-width:1200px)">
-          <img src="img/letsMeet/cover.jpg" alt="My Image">
-        </picture>
+    <div id="hero">
+      <div class="container">
+        <h1>
+          Let's Meet
+        </h1>
+        <div>
+          <picture>
+            <source srcset="img/letsMeet/cover.jpg" media="(max-width:1200px)">
+            <img src="img/letsMeet/cover.jpg" alt="My Image">
+          </picture>
+        </div>
+        <p>Let’s meet is a responsive web-app that utilizes location-based recommendations to help users make new friends and find events in their area.
+        </p>
       </div>
-      <p>Let’s meet is a responsive web-app that utilizes location-based recommendations to help users make new friends and find events in their area.
-      </p>
     </div>
-
     <!-- Process -->
-    <h2>My Process</h2>
-    <div>
-      <!-- Research -->
+    <div class="container">
+      <h2>My Process</h2>
       <div>
-        <h3>Research</h3>
-        <!-- analysis -->
-        <p>I began my research with an in-depth competitive analysis, analyzing competition to determine the basic direction of my project. In this case, I analyzed MeetUp, a popular group meet up site, because it related to my event function that I
-          was considering; I analyzed bumblebff because it related to the friend-making function I had planned; and I analyzed Discord because of its excellent handling of group chats and one-on-one chats, which I believed could relate to my app.
-        </p>
+        <!-- Research -->
         <div>
+          <h3>Research</h3>
+          <!-- analysis -->
+          <p>I began my research with an in-depth competitive analysis, analyzing competition to determine the basic direction of my project. In this case, I analyzed MeetUp, a popular group meet up site, because it related to my event function that
+            I
+            was considering; I analyzed bumblebff because it related to the friend-making function I had planned; and I analyzed Discord because of its excellent handling of group chats and one-on-one chats, which I believed could relate to my app.
+          </p>
+          <div>
+            <picture>
+              <source srcset="img/letsMeet/research/analysisMeetup.jpg" media="(max-width:1200px)">
+              <img src="img/letsMeet/research/analysisMeetup.jpg" alt=" Competitive Analysis">
+            </picture>
+            <picture>
+              <source srcset="img/letsMeet/research/analysisBumble.jpg" media="(max-width:1200px)">
+              <img src="img/letsMeet/research/analysisBumble.jpg" alt=" Competitive Analysis">
+            </picture>
+            <picture>
+              <source srcset="img/letsMeet/research/analysisDiscord.jpg" media="(max-width:1200px)">
+              <img src="img/letsMeet/research/analysisDiscord.jpg" alt=" Competitive Analysis">
+            </picture>
+          </div>
+          <!-- personas -->
+          <p>I then conducted user interviews to get a clearer idea of what users wanted from this kind of application and where they have been previously impressed or let down. Based on the interviews, I created a few User Personas, which helped me
+            determine what features my app would need.
+          </p>
+          <div>
+            <picture>
+              <source srcset="img/letsMeet/research/persona1.jpg" media="(max-width:1200px)">
+              <img src="img/letsMeet/research/persona1.jpg" alt="Persona 1">
+            </picture>
+            <picture>
+              <source srcset="img/letsMeet/research/persona2.jpg" media="(max-width:1200px)">
+              <img src="img/letsMeet/research/persona2.jpg" alt="Persona 2">
+            </picture>
+            <picture>
+              <source srcset="img/letsMeet/research/persona3.jpg" media="(max-width:1200px)">
+              <img src="img/letsMeet/research/persona3.jpg" alt="Persona 3">
+            </picture>
+            <picture>
+              <source srcset="img/letsMeet/research/persona4.jpg" media="(max-width:1200px)">
+              <img src="img/letsMeet/research/persona4.jpg" alt="Persona 4">
+            </picture>
+          </div>
+        </div>
+        <!-- Ideation -->
+        <div>
+          <h3>Ideation</h3>
+          <!-- MVP -->
+          <p>Using my User Personas, I determined the Minimum Viable Product (MVP), the bare minimum features my app needs in order to go out into the market.
+          </p>
           <picture>
-            <source srcset="img/letsMeet/research/analysisMeetup.jpg" media="(max-width:1200px)">
-            <img src="img/letsMeet/research/analysisMeetup.jpg" alt=" Competitive Analysis">
+            <source srcset="img/letsMeet/research/mvp.jpg" media="(max-width:1200px)">
+            <img src="img/letsMeet/research/mvp.jpg" alt="MVP">
+          </picture>
+          <!-- flow charts -->
+          <p>Using my MVP, I designed my User Flow Charts and ultimately my I.A. Map, the flow chart that maps out the entire structure of the app.
+          </p>
+          <picture>
+            <source srcset="img/letsMeet/ideation/flowIA.jpg" media="(max-width:1200px)">
+            <img src="img/letsMeet/ideation/flowIA.jpg" alt="IA Map">
           </picture>
           <picture>
-            <source srcset="img/letsMeet/research/analysisBumble.jpg" media="(max-width:1200px)">
-            <img src="img/letsMeet/research/analysisBumble.jpg" alt=" Competitive Analysis">
+            <source srcset="img/letsMeet/ideation/flows1.jpg" media="(max-width:1200px)">
+            <img src="img/letsMeet/ideation/flows1.jpg" alt="User Flows">
           </picture>
           <picture>
-            <source srcset="img/letsMeet/research/analysisDiscord.jpg" media="(max-width:1200px)">
-            <img src="img/letsMeet/research/analysisDiscord.jpg" alt=" Competitive Analysis">
+            <source srcset="img/letsMeet/ideation/flows2.jpg" media="(max-width:1200px)">
+            <img src="img/letsMeet/ideation/flows2.jpg" alt="User Flows">
+          </picture>
+          <!-- prototype and testing -->
+          <p>Once I knew what to include, I created a very rough and simple prototype, which was then tested by users. I examined the users’ actions as they tested my prototype and took note of their feedback. Using this information, I created a
+            chart
+            that would help me decide how to address any problems that came up.
+          </p>
+          <picture>
+            <source srcset="img/letsMeet/ideation/testResults.jpg" media="(max-width:1200px)">
+            <img src="img/letsMeet/ideation/testResults.jpg" alt="Feedback Chart">
+          </picture>
+          <picture>
+            <source srcset="img/letsMeet/ideation/prototype.jpg" media="(max-width:1200px)">
+            <img src="img/letsMeet/ideation/prototype.jpg" alt="Prototype">
           </picture>
         </div>
-        <!-- personas -->
-        <p>I then conducted user interviews to get a clearer idea of what users wanted from this kind of application and where they have been previously impressed or let down. Based on the interviews, I created a few User Personas, which helped me
-          determine what features my app would need.
-        </p>
+        <!-- Design -->
         <div>
+          <h3>Design</h3>
+          <!-- mood boards -->
+          <p>I knew I wanted my app’s visual design to encourage users to get involved in social activities, so I came up with a couple mood boards that I believed suited this idea.
+          </p>
           <picture>
-            <source srcset="img/letsMeet/research/persona1.jpg" media="(max-width:1200px)">
-            <img src="img/letsMeet/research/persona1.jpg" alt="Persona 1">
+            <source srcset="img/letsMeet/design/moodBoards.jpg" media="(max-width:1200px)">
+            <img src="img/letsMeet/design/moodBoards.jpg" alt="Mood Boards">
           </picture>
+          <p>My first mood pulls from imagery of sunny parks, outdoor events, playgrounds. The blues and yellows are energetic and encourage users to go outside to do something fun. This mood board is related to the elements of my app that involve
+            larger events and gatherings.
+          </p>
+          <p>The second mood board pulls mainly from rustic coffee shops. It’s a warm, intimate feeling that is more in line with the smaller, intimate hangouts that can be set up in the app.
+          </p>
+          <p>Ultimately I went with the first mood board, as the aesthetic is less specific and encompasses more elements of my app. While small gatherings are definitely part of my app’s function, larger gatherings are also a great focus. The first
+            mood board is appropriate for both scenarios, whereas the second is only appropriate for more intimate gatherings. 
+          </p>
+        </div>
+        <!-- Wireframe -->
+        <div>
+          <h3>Wireframe</h3>
+          <!-- wireframe evolution -->
+          <p>Based on the feedback on my prototype, I created low fidelity wireframes. After deciding on the moldboard, I developed them further into mid-fidelity and then high-fidelity wireframes.
+          </p>
           <picture>
-            <source srcset="img/letsMeet/research/persona2.jpg" media="(max-width:1200px)">
-            <img src="img/letsMeet/research/persona2.jpg" alt="Persona 2">
+            <source srcset="img/letsMeet/design/wireframeDevelopment.jpg" media="(max-width:1200px)">
+            <img src="img/letsMeet/design/wireframeDevelopment.jpg" alt="Wireframe Development">
           </picture>
+          <!-- preference test -->
+          <p>As I worked on my high fidelity wireframes, I struggled a bit with how to apply color. For example, I knew I wanted to emphasize profiles with more interests in common with the users using color, but I wasn’t sure what color scheme to
+            use.
+            I began with the more harsh white/yellow/blue scheme, then created an alternative yellow/white scheme for simplicity. I then ran a preference test.
+          </p>
           <picture>
-            <source srcset="img/letsMeet/research/persona3.jpg" media="(max-width:1200px)">
-            <img src="img/letsMeet/research/persona3.jpg" alt="Persona 3">
+            <source srcset="img/letsMeet/design/preferenceTest.jpg" media="(max-width:1200px)">
+            <img src="img/letsMeet/design/preferenceTest.jpg" alt="Preference Test">
           </picture>
-          <picture>
-            <source srcset="img/letsMeet/research/persona4.jpg" media="(max-width:1200px)">
-            <img src="img/letsMeet/research/persona4.jpg" alt="Persona 4">
-          </picture>
+          <p>The results of the preference test showed me that people liked the idea of a 3 color scheme, as it provided more information, but they didn’t like how harsh the white/yellow/blue scheme looked. The results of the preference test showed
+            me
+            that people liked the idea of a 3 color scheme, as it provided more information, but they didn’t like how harsh the white/yellow/blue scheme looked. Taking this into consideration, as well as some personal reflection and peer advice, I
+            determined that the best solution would be to simplify the color scheme into 3 different shades of blue.
+          </p>
         </div>
       </div>
-      <!-- Ideation -->
+      <!-- Finished Screens -->
       <div>
-        <h3>Ideation</h3>
-        <!-- MVP -->
-        <p>Using my User Personas, I determined the Minimum Viable Product (MVP), the bare minimum features my app needs in order to go out into the market.
-        </p>
+        <h2>Finished Screens and Prototype</h2>
+        <p><a href="#">Link to Interactive Prototype</a></p>
         <picture>
-          <source srcset="img/letsMeet/research/mvp.jpg" media="(max-width:1200px)">
-          <img src="img/letsMeet/research/mvp.jpg" alt="MVP">
-        </picture>
-        <!-- flow charts -->
-        <p>Using my MVP, I designed my User Flow Charts and ultimately my I.A. Map, the flow chart that maps out the entire structure of the app.
-        </p>
-        <picture>
-          <source srcset="img/letsMeet/ideation/flowIA.jpg" media="(max-width:1200px)">
-          <img src="img/letsMeet/ideation/flowIA.jpg" alt="IA Map">
+          <source srcset="img/letsMeet/design/final1.jpg" media="(max-width:1200px)">
+          <img src="img/letsMeet/design/final1.jpg" alt="Final Design">
         </picture>
         <picture>
-          <source srcset="img/letsMeet/ideation/flows1.jpg" media="(max-width:1200px)">
-          <img src="img/letsMeet/ideation/flows1.jpg" alt="User Flows">
+          <source srcset="img/letsMeet/design/final2.jpg" media="(max-width:1200px)">
+          <img src="img/letsMeet/design/final2.jpg" alt="Final Design">
         </picture>
         <picture>
-          <source srcset="img/letsMeet/ideation/flows2.jpg" media="(max-width:1200px)">
-          <img src="img/letsMeet/ideation/flows2.jpg" alt="User Flows">
-        </picture>
-        <!-- prototype and testing -->
-        <p>Once I knew what to include, I created a very rough and simple prototype, which was then tested by users. I examined the users’ actions as they tested my prototype and took note of their feedback. Using this information, I created a chart
-          that would help me decide how to address any problems that came up.
-        </p>
-        <picture>
-          <source srcset="img/letsMeet/ideation/testResults.jpg" media="(max-width:1200px)">
-          <img src="img/letsMeet/ideation/testResults.jpg" alt="Feedback Chart">
+          <source srcset="img/letsMeet/design/final3.jpg" media="(max-width:1200px)">
+          <img src="img/letsMeet/design/final3.jpg" alt="Final Design">
         </picture>
         <picture>
-          <source srcset="img/letsMeet/ideation/prototype.jpg" media="(max-width:1200px)">
-          <img src="img/letsMeet/ideation/prototype.jpg" alt="Prototype">
+          <source srcset="img/letsMeet/design/final4.jpg" media="(max-width:1200px)">
+          <img src="img/letsMeet/design/final4.jpg" alt="Final Design">
+        </picture>
+        <picture>
+          <source srcset="img/letsMeet/design/final5.jpg" media="(max-width:1200px)">
+          <img src="img/letsMeet/design/final5.jpg" alt="Final Design">
         </picture>
       </div>
-      <!-- Design -->
+      <!-- Style Guide -->
       <div>
-        <h3>Design</h3>
-        <!-- mood boards -->
-        <p>I knew I wanted my app’s visual design to encourage users to get involved in social activities, so I came up with a couple mood boards that I believed suited this idea.
+        <h3>Style Guide</h3>
+        <p>I created a style guide to inform future designers who may be adding new features to the app. By following my style guide, these designers can remain consistent with the UI that I have created.
         </p>
         <picture>
-          <source srcset="img/letsMeet/design/moodBoards.jpg" media="(max-width:1200px)">
-          <img src="img/letsMeet/design/moodBoards.jpg" alt="Mood Boards">
+          <source srcset="img/letsMeet/design/styleGuide.jpg" media="(max-width:1200px)">
+          <img src="img/letsMeet/design/styleGuide.jpg" alt="Style Guide">
         </picture>
-        <p>My first mood pulls from imagery of sunny parks, outdoor events, playgrounds. The blues and yellows are energetic and encourage users to go outside to do something fun. This mood board is related to the elements of my app that involve
-          larger events and gatherings.
+      </div>
+      <!-- Mockups -->
+      <div>
+        <h3>Mockups</h3>
+        <p>I created mockups using Adobe Photoshop to give an idea as to what the application might look like in the real world.
         </p>
-        <p>The second mood board pulls mainly from rustic coffee shops. It’s a warm, intimate feeling that is more in line with the smaller, intimate hangouts that can be set up in the app.
-        </p>
-        <p>Ultimately I went with the first mood board, as the aesthetic is less specific and encompasses more elements of my app. While small gatherings are definitely part of my app’s function, larger gatherings are also a great focus. The first
-          mood board is appropriate for both scenarios, whereas the second is only appropriate for more intimate gatherings. 
+        <picture>
+          <source srcset="img/letsMeet/mockups/mockups.jpg" media="(max-width:1200px)">
+          <img src="img/letsMeet/mockups/mockups.jpg" alt="Mockups">
+        </picture>
+      </div>
+      <!-- Reflection -->
+      <div class="container">
+        <h3>Reflection</h3>
+        <p>Let’s Meet was my first UI/UX project with an intensive UX phase. I spent the majority of the time researching, prototyping, interviewing and wireframing. As a UI and UX Designer with an illustration background, I was expecting to dislike
+          the research intensive phases of the process, but to my surprise I found it extremely enjoyable and very exciting. Knowing that every decision I was making with my UI design was informed by my research and therefore had a logical basis made
+          me much more confident in my decisions, and allowed me to think of the entire project as a product rather than an art piece.
         </p>
       </div>
-      <!-- Wireframe -->
-      <div>
-        <h3>Wireframe</h3>
-        <!-- wireframe evolution -->
-        <p>Based on the feedback on my prototype, I created low fidelity wireframes. After deciding on the moldboard, I developed them further into mid-fidelity and then high-fidelity wireframes.
-        </p>
-        <picture>
-          <source srcset="img/letsMeet/design/wireframeDevelopment.jpg" media="(max-width:1200px)">
-          <img src="img/letsMeet/design/wireframeDevelopment.jpg" alt="Wireframe Development">
-        </picture>
-        <!-- preference test -->
-        <p>As I worked on my high fidelity wireframes, I struggled a bit with how to apply color. For example, I knew I wanted to emphasize profiles with more interests in common with the users using color, but I wasn’t sure what color scheme to use.
-          I began with the more harsh white/yellow/blue scheme, then created an alternative yellow/white scheme for simplicity. I then ran a preference test.
-        </p>
-        <picture>
-          <source srcset="img/letsMeet/design/preferenceTest.jpg" media="(max-width:1200px)">
-          <img src="img/letsMeet/design/preferenceTest.jpg" alt="Preference Test">
-        </picture>
-        <p>The results of the preference test showed me that people liked the idea of a 3 color scheme, as it provided more information, but they didn’t like how harsh the white/yellow/blue scheme looked. The results of the preference test showed me
-          that people liked the idea of a 3 color scheme, as it provided more information, but they didn’t like how harsh the white/yellow/blue scheme looked. Taking this into consideration, as well as some personal reflection and peer advice, I
-          determined that the best solution would be to simplify the color scheme into 3 different shades of blue.
-        </p>
-      </div>
-    </div>
-    <!-- Finished Screens -->
-    <div>
-      <h2>Finished Screens and Prototype</h2>
-      <p><a href="#">Link to Interactive Prototype</a></p>
-      <picture>
-        <source srcset="img/letsMeet/design/final1.jpg" media="(max-width:1200px)">
-        <img src="img/letsMeet/design/final1.jpg" alt="Final Design">
-      </picture>
-      <picture>
-        <source srcset="img/letsMeet/design/final2.jpg" media="(max-width:1200px)">
-        <img src="img/letsMeet/design/final2.jpg" alt="Final Design">
-      </picture>
-      <picture>
-        <source srcset="img/letsMeet/design/final3.jpg" media="(max-width:1200px)">
-        <img src="img/letsMeet/design/final3.jpg" alt="Final Design">
-      </picture>
-      <picture>
-        <source srcset="img/letsMeet/design/final4.jpg" media="(max-width:1200px)">
-        <img src="img/letsMeet/design/final4.jpg" alt="Final Design">
-      </picture>
-      <picture>
-        <source srcset="img/letsMeet/design/final5.jpg" media="(max-width:1200px)">
-        <img src="img/letsMeet/design/final5.jpg" alt="Final Design">
-      </picture>
-    </div>
-    <!-- Style Guide -->
-    <div>
-      <h3>Style Guide</h3>
-      <p>I created a style guide to inform future designers who may be adding new features to the app. By following my style guide, these designers can remain consistent with the UI that I have created.
-      </p>
-      <picture>
-        <source srcset="img/letsMeet/design/styleGuide.jpg" media="(max-width:1200px)">
-        <img src="img/letsMeet/design/styleGuide.jpg" alt="Style Guide">
-      </picture>
-    </div>
-    <!-- Mockups -->
-    <div>
-      <h3>Mockups</h3>
-      <p>I created mockups using Adobe Photoshop to give an idea as to what the application might look like in the real world.
-      </p>
-      <picture>
-        <source srcset="img/letsMeet/mockups/mockups.jpg" media="(max-width:1200px)">
-        <img src="img/letsMeet/mockups/mockups.jpg" alt="Mockups">
-      </picture>
-    </div>
-    <!-- Reflection -->
-    <div>
-      <h3>Reflection</h3>
-      <p>Let’s Meet was my first UI/UX project with an intensive UX phase. I spent the majority of the time researching, prototyping, interviewing and wireframing. As a UI and UX Designer with an illustration background, I was expecting to dislike
-        the research intensive phases of the process, but to my surprise I found it extremely enjoyable and very exciting. Knowing that every decision I was making with my UI design was informed by my research and therefore had a logical basis made
-        me much more confident in my decisions, and allowed me to think of the entire project as a product rather than an art piece.
-      </p>
     </div>
   </main>
 
   <!-- For the footer -->
   <footer id="contact">
-    <div>
+    <div class="container">
       <h2>Get in Touch</h2>
       <p>If you would like to discuss potential work with me, please send me an email or a message on LinkedIn.</p>
       <div>
