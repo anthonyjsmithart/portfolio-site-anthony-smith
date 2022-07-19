@@ -155,3 +155,22 @@ nav {
 main {
   padding-top: 100px;
 }
+/* footer */
+.social {
+
+}
+.social > a {
+  text-decoration: none;
+}
+.social > a:visited {
+  text-decoration: none;
+}
+.social > a:hover {
+  text-decoration: none;
+}
+.social > a:focus {
+  text-decoration: none;
+}
+.copyright {
+  text-align: center;
+}
