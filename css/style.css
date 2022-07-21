@@ -168,6 +168,9 @@ main {
 .social > a:focus {
   text-decoration: none;
 }
+.social {
+    padding-top: 20px;
+}
 .copyright {
   text-align: center;
 }
