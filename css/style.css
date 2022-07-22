@@ -174,3 +174,32 @@ main {
 .copyright {
   text-align: center;
 }
+
+/* medium breakpoint (640px or larger)*/
+@media only screen and (min-width: 640px){
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  main {
+    padding-top: 95px;
+  }
+  #hero span {
+    display: block;
+  }
+  /* columns */
+  .col-md-6 {
+    width: 50%;
+  }
+}
+/* large breakpoint (1024px or larger)*/
+@media only screen and (min-width: 640px){
+}
+/* x-large breakpoint (1440px or larger)*/
+@media only screen and (min-width: 640px){
+}
