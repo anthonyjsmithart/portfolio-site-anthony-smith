@@ -205,7 +205,7 @@ main {
   float: left;
   padding: 10px;
 }
-.row: after {
+.row::after {
   content: "";
   clear: both;
   display: table;
