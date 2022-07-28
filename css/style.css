@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 /*
 Colors used:
 Link Color (Blue): #006fbd;
@@ -19,23 +20,23 @@ h1, h2, h3, h4 {
 }
 
 h1, {
-  font-size: 36px;
-  font-weight: 700;
+font-size: 36px;
+font-weight: 700;
 }
 
 h2, {
-  font-size: 30px;
-  font-weight: 700;
+font-size: 30px;
+font-weight: 700;
 }
 
 h3, {
-  font-size: 24px;
-  font-weight: 400;
+font-size: 24px;
+font-weight: 400;
 }
 
 h4, {
-  font-size: 16px;
-  font-weight: 400;
+font-size: 16px;
+font-weight: 400;
 }
 
 /* images */
@@ -49,18 +50,22 @@ a {
   font-weight: 400;
   text-decoration: none;
 }
+
 a:visited {
   color: #4217ae
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 a:focus {
   text-decoration: underline;
 }
+
 a:active {
-    text-decoration: underline;
-    font-weight: 700;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 /* buttons */
@@ -68,7 +73,7 @@ a:active {
   display: inline-block;
   background-color: #0057f7;
   color: #ffffff;
-  text-decoration:none;
+  text-decoration: none;
   font-weight: 700;
   padding: 10px;
   border-radius: 6px;
@@ -85,7 +90,7 @@ a:active {
   display: inline-block;
   background-color: #0057f7;
   color: #ffffff;
-  text-decoration:none;
+  text-decoration: none;
   font-weight: 700;
   padding: 10px;
   border-radius: 6px;
@@ -105,7 +110,7 @@ a:active {
 
 .button:active {
   color: #ffffff;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 /* contact button */
@@ -130,7 +135,7 @@ a:active {
 }
 
 .row {
-  margin:25px 0;
+  margin: 25px 0;
 }
 
 /* header */
@@ -141,29 +146,28 @@ header {
   width: 100%;
   background-color: #d8edff;
   -webkit-box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.5);
-  -moz-box-shadow:    0px 7px 5px 0px rgba(50, 50, 50, 0.5);
-  box-shadow:         0px 7px 5px 0px rgba(50, 50, 50, 0.5);
-
+  -moz-box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.5);
 }
 
 /* navigation */
-nav > ul {
+nav>ul {
   list-style: none;
   padding: 0
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
 }
 
-nav > ul > li > a:visited {
+nav>ul>li>a:visited {
   color: #4d4d4d;
 }
 
@@ -193,25 +197,30 @@ main {
   text-align: center;
 }
 
+.column-analysis {
+  display: inline-block;
+  width: 100%
+}
+
 /* footer */
-.social > a {
+.social>a {
   text-decoration: none;
 }
 
-.social > a:visited {
+.social>a:visited {
   text-decoration: none;
 }
 
-.social > a:hover {
+.social>a:hover {
   text-decoration: none;
 }
 
-.social > a:focus {
+.social>a:focus {
   text-decoration: none;
 }
 
 .social {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .copyright {
@@ -234,18 +243,22 @@ main {
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 640px) {
+
   header {
     text-align: unset;
     padding: 20px 0 13px;
   }
+
   nav {
     width: auto;
     float: right;
   }
+
   body {
     font-size: 18px;
   }
+
   /* columns */
   .col-md-6 {
     width: 50%;
@@ -256,13 +269,14 @@ Medium devices (640px and larger)
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-
 @media only screen and (min-width: 1024px) {
+
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .col-lg-7 {
     width: 60%;
   }
@@ -275,32 +289,50 @@ Large devices (1024px or larger)
     width: 50%;
     float: left;
   }
+
   .col-lg-8 {
     width: 40%;
     float: right;
   }
 
-   #about-page .col-md-6 {
-     width: 100%;
+  /* Project 1 column layout */
+  .column-analysis {
+    width: 33%;
+    float: left;
+    display: inline-block;
+  }
+
+  /* About page */
+  #about .col-md-6 {
+    width: 100%;
   }
 }
+
 /* x-large breakpoint (1440px or larger)*/
-@media only screen and (min-width: 1440px){
-}
+@media only screen and (min-width: 1440px) {}
 
 /* ==============================
 Animations
 ==============================*/
 .svg-animation {
   width: 70%;
-  max-width: 70%
-  height: auto;
+  max-width: 70% height: auto;
 }
+
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
+
 .sun {
   animation-duration: 4s;
   animation-name: color-change;
@@ -310,9 +342,15 @@ Animations
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0, 50px);}
-  to {transform: translate(200px, 50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
+
 .cloud-front {
   animation-duration: 25s;
   animation-name: cloud-move;
@@ -320,10 +358,17 @@ Animations
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px, 48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
+
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
