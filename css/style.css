@@ -1,5 +1,9 @@
+/* default width of an element to include the padding and the border */
+* {
+  box-sizing: border-box;
+}
 /*
-Colosrs used:
+Colors used:
 Link Color (Blue): #006fbd;
 */
 body {
@@ -9,29 +13,36 @@ body {
   line-height: 1.6;
   color: #000000;
 }
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1, {
   font-size: 36px;
   font-weight: 700;
 }
+
 h2, {
   font-size: 30px;
   font-weight: 700;
 }
+
 h3, {
   font-size: 24px;
   font-weight: 400;
 }
+
 h4, {
   font-size: 16px;
   font-weight: 400;
 }
+
 /* images */
 img {
   width: 100%
 }
+
 /* links */
 a {
   color: #0057f7;
@@ -51,6 +62,7 @@ a:active {
     text-decoration: underline;
     font-weight: 700;
 }
+
 /* buttons */
 .button {
   display: inline-block;
@@ -62,7 +74,13 @@ a:active {
   border-radius: 6px;
   border-bottom: 3px solid #4217ae;
   transition: 0.2s opacity;
+  transition-property: opacity;
 }
+
+.button:hover {
+  opacity: 0.8;
+}
+
 .button:visited {
   display: inline-block;
   background-color: #0057f7;
@@ -74,55 +92,48 @@ a:active {
   border-bottom: 3px solid #000000;
   transition: 0.2s opacity;
 }
+
 .button:hover {
   opacity: 0.8;
   text-decoration: none;
 }
+
 .button:focus {
   opacity: 0.8;
   text-decoration: none;
 }
+
 .button:active {
   color: #ffffff;
   text-decoration:none;
 }
+
 /* contact button */
 .button.contact {
   background-color: transparent;
   color: #0057f7;
   text-transform: uppercase;
   border: 2px solid #0057f7;
+  transition: 0.2s opacity;
+  transition-property: opacity;
 }
+
 .button.contact:hover {
   background-color: #0057f7;
   color: #ffffff;
   border-bottom: 3px solid #000000;
 }
-* {
-  box-sizing: border-box;
-}
+
 /* layout styling */
 .container {
   padding: 0 15px;
 }
+
 .row {
   margin:25px 0;
 }
-#work .row {
-  padding-bottom: 25px;
-  border-bottom: 1px solid #4a4a4a;
-}
-/* hero */
-#hero {
-  background-color: #d8edff;
-  padding: 20px 0;
-  display: inline-block;
-  width: 100%;
-}
-#hero h1 {
-  text-align: center;
-  /* header */
-}
+
+/* header */
 header {
   text-align: center;
   padding: 10px 0;
@@ -134,52 +145,95 @@ header {
   box-shadow:         0px 7px 5px 0px rgba(50, 50, 50, 0.5);
 
 }
+
 /* navigation */
 nav > ul {
   list-style: none;
   padding: 0
 }
+
 nav > ul > li {
   display: inline-block;
 }
+
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
 }
+
 nav > ul > li > a:visited {
   color: #4d4d4d;
 }
+
 nav {
   display: inline-block;
   width: 100%;
 }
+
 /* main */
 main {
   padding-top: 100px;
 }
+
+#work .row {
+  padding-bottom: 25px;
+}
+
+/* hero */
+#hero {
+  background-color: #d8edff;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
 /* footer */
 .social > a {
   text-decoration: none;
 }
+
 .social > a:visited {
   text-decoration: none;
 }
+
 .social > a:hover {
   text-decoration: none;
 }
+
 .social > a:focus {
   text-decoration: none;
 }
+
 .social {
     padding-top: 20px;
 }
+
 .copyright {
   text-align: center;
 }
 
-/* medium breakpoint (640px or larger)*/
+/* clear page flow */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* float columns left */
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
 @media only screen and (min-width: 640px){
   header {
     text-align: unset;
@@ -188,32 +242,67 @@ main {
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
   }
-  main {
-    padding-top: 95px;
-  }
-  #hero span {
-    display: block;
+  body {
+    font-size: 18px;
   }
   /* columns */
   .col-md-6 {
     width: 50%;
+    float: left;
   }
 }
-[class*="col-"] {
-  float: left;
-  padding: 10px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
-/* large breakpoint (1024px or larger)*/
-@media only screen and (min-width: 640px){
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+/*  
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .col-lg-7 {
+    width: 60%;
+  }
+
+  .col-lg-5 {
+    width: 40%;
+  }
+
+  .col-lg-7 {
+    width: 60%;
+    float: left;
+    padding-bottom: 40px;
+  }
+  .col-lg-8 {
+    width: 40%;
+    float: right;
+  }
+
+   #about-page .col-md-6 {
+     width: 100%;
+  }
 }
 /* x-large breakpoint (1440px or larger)*/
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 1440px){
+}
+
+/* ==============================
+Animations
+==============================*/
+
+/* sun animation */
+@@keyframes rays-move {
+  from {transform: rotate(0);}
+ to {transform: rotate(360);}
+}
+.rays {
+  animation-duration: 10s;
+  animation-name: rays-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+
 }
