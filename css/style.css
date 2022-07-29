@@ -315,8 +315,8 @@ Large devices (1024px or larger)
 Animations
 ==============================*/
 .svg-animation {
-  width: 70%;
-  max-width: 70% height: auto;
+  width: 100%;
+  max-width: 100% height: auto;
 }
 
 @keyframes color-change {
