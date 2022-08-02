@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="328" height="79" viewBox="0 0 328 79">
+  <g id="logo" transform="translate(-32 -136)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="328" height="75" rx="10" transform="translate(32 140)"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(32 136)" fill="#fff" stroke="#1b5cee" stroke-width="4">
+      <rect width="328" height="75" rx="10" stroke="none"/>
+      <rect x="2" y="2" width="324" height="71" rx="8" fill="none"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(256 136)" fill="#1b5cee" stroke="#1b5cee" stroke-width="4">
+      <path d="M0,0H94a10,10,0,0,1,10,10V65A10,10,0,0,1,94,75H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M2,2H94a8,8,0,0,1,8,8V65a8,8,0,0,1-8,8H2a0,0,0,0,1,0,0V2A0,0,0,0,1,2,2Z" fill="none"/>
+    </g>
+    <text id="Anthony_Smith" data-name="Anthony Smith" transform="translate(45 185)" font-size="28" font-family="Manrope" font-weight="600"><tspan x="0" y="0">Anthony Smith</tspan></text>
+    <text id="UI_UX" data-name="UI/UX" transform="translate(269 185)" fill="#fff" font-size="28" font-family="Manrope" font-weight="600"><tspan x="0" y="0">UI/UX</tspan></text>
+  </g>
+</svg>

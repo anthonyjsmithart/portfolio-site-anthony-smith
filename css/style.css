@@ -140,7 +140,6 @@ a:active {
 
 /* header */
 header {
-  text-align: center;
   padding: 10px 0;
   position: fixed;
   width: 100%;
@@ -153,11 +152,39 @@ header {
 /* navigation */
 nav>ul {
   list-style: none;
-  padding: 0
+  padding: 0;
+  margin: 0;
 }
 
-nav>ul>li {
-  display: inline-block;
+/* hamburger menu */
+.navtoggle li:not(:last-child) {
+display: none;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 25px;
+  padding-right: 0;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 nav>ul>li>a {
@@ -171,14 +198,10 @@ nav>ul>li>a:visited {
   color: #4d4d4d;
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
-}
-
 /* main */
 main {
-  padding-top: 100px;
+  padding-top: 73px;
+  }
 }
 
 #work .row {
@@ -240,10 +263,32 @@ main {
   padding: 10px;
 }
 
+/* logo */
+.logo{
+max-width: 150px;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+
+nav>ul {
+  margin: 1em 0;
+  }
+
+nav>ul>li {
+    display: inline-block;
+  }
+
+/* hamburger */
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
 
   header {
     text-align: unset;
@@ -264,6 +309,10 @@ Medium devices (640px and larger)
     width: 50%;
     float: left;
   }
+}
+
+.logo{
+max-width: 200px;
 }
 
 /* ==============================
