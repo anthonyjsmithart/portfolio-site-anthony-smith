@@ -28,11 +28,18 @@
         <div class="navtoggle" id="myNavtoggle">
       <a href="index.html"><img class="logo" src="img/logo.svg" alt="Anthony Smith UI/UX Designer"></a>
       <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
+        <ul class="navigation">
+          <li class="active"><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          <li><a href="#contact" onclick="menuToggle(this)">Contact</a></li>
+          <li>
+          <p id="click_advance">
+            <a href="javascript:void(0);" class="icon"
+            onclick="menuToggle()">
+              <i class="fas fa-bars"></i>
+            </a>
+          </p>
+        </li>
         </ul>
       </nav>
     </div>
@@ -283,6 +290,8 @@
       </div>
     </div>
   </footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 
 </html>
