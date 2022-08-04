@@ -25,24 +25,23 @@
   <header>
     <div class="container">
       <!-- Logo -->
-        <div class="navtoggle" id="myNavtoggle">
-      <a href="index.html"><img class="logo" src="img/logo.svg" alt="Anthony Smith UI/UX Designer"></a>
-      <nav>
-        <ul class="navigation">
-          <li class="active"><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact" onclick="menuToggle(this)">Contact</a></li>
-          <li>
-          <p id="click_advance">
-            <a href="javascript:void(0);" class="icon"
-            onclick="menuToggle()">
-              <i class="fas fa-bars"></i>
-            </a>
-          </p>
-        </li>
-        </ul>
-      </nav>
-    </div>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img class="logo" src="img/logo.svg" alt="Anthony Smith UI/UX Designer"></a>
+        <nav>
+          <ul class="navigation">
+            <li class="active"><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggle(this)">Contact</a></li>
+            <li>
+              <p id="click_advance">
+                <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                  <i class="fas fa-bars"></i>
+                </a>
+              </p>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -55,12 +54,16 @@
           Game Feed
         </h1>
         <div>
+        </div>
+      </div>
+      <div>
+        <div>
           <picture>
             <source srcset="img/gameFeed/cover.jpg" media="(max-width:1200px)">
             <img src="img/gameFeed/cover.jpg" alt="My Image">
           </picture>
         </div>
-        <p>Let’s meet is a responsive web-app that utilizes location-based recommendations to help users make new friends and find events in their area.
+        <p class="container">Let’s meet is a responsive web-app that utilizes location-based recommendations to help users make new friends and find events in their area.
         </p>
       </div>
     </div>
@@ -72,27 +75,30 @@
         <div>
           <h3>Research</h3>
           <!-- analysis -->
-          <p>I began my research with a competitive analysis of three different video game info and tracking apps, analyzing competition to determine the basic direction of my project. I analyzed Game Track, an app I have used myself for info on video games; I analyzed Gameye, an app that allows users to keep track of their video game collection by scanning their games or manually adding them; and I analyzed IGN’s native app, as IGN is one of the most well-known sources of video game info, reviews and news.</p>
+          <p>I began my research with a competitive analysis of three different video game info and tracking apps, analyzing competition to determine the basic direction of my project. I analyzed Game Track, an app I have used myself for info on
+            video games; I analyzed Gameye, an app that allows users to keep track of their video game collection by scanning their games or manually adding them; and I analyzed IGN’s native app, as IGN is one of the most well-known sources of video
+            game info, reviews and news.</p>
           <div id="analysis">
-            <div class= "row">
-              <picture  class= "column-analysis">
+            <div class="row">
+              <picture class="column-analysis">
                 <source srcset="img/gameFeed/research/analysisGametrack.jpg" media="(max-width:1200px)">
                 <img src="img/gameFeed/research/analysisGametrack.jpg" alt=" Competitive Analysis">
               </picture>
-              <picture  class= "column-analysis">
+              <picture class="column-analysis">
                 <source srcset="img/gameFeed/research/analysisGameeye.jpg" media="(max-width:1200px)">
                 <img src="img/gameFeed/research/analysisGameeye.jpg" alt=" Competitive Analysis">
               </picture>
-              <picture  class= "column-analysis">
+              <picture class="column-analysis">
                 <source srcset="img/gameFeed/research/analysisIGN.jpg" media="(max-width:1200px)">
                 <img src="img/gameFeed/research/analysisIGN.jpg" alt=" Competitive Analysis">
               </picture>
+            </div>
           </div>
-        </div>
 
           <h3>Ideation</h3>
           <!-- MVP -->
-          <p>After analyzing the market, I determined my Minimum Viable Product (MVP). My MVP helped me cut down on unnecessary features that were better addressed on other apps and focus solely on what I absolutely needed to create. I decided that I needed these core features: basic information on video games and the ability to track upcoming games to be notified when they release (a Track/Wishlist feature).
+          <p>After analyzing the market, I determined my Minimum Viable Product (MVP). My MVP helped me cut down on unnecessary features that were better addressed on other apps and focus solely on what I absolutely needed to create. I decided that I
+            needed these core features: basic information on video games and the ability to track upcoming games to be notified when they release (a Track/Wishlist feature).
           </p>
           <picture>
             <source srcset="img/letsMeet/research/mvp.jpg" media="(max-width:1200px)">
@@ -106,66 +112,80 @@
             <img src="img/gameFeed/ideation/flow.jpg" alt="IA Map">
           </picture>
         </div>
+
         <!-- Design -->
         <div>
           <h3>Design</h3>
-          <!-- mood boards -->
-          <p>My app was designed to take advantage of as many native features it could. I studied the IOS and Material guidelines for their respective app versions, and I worked with UI kits to make sure everything was as accurate as possible. I worked with the dark theme colors because, based on my research, this seems favorable in gaming apps. I used orange as the accent color. I determined that strong branding was not a priority of this app, so I used a native orange color for each device to take advantage of the benefits that provides.</p>
-          <div class= "row">
-            <picture  class= "column-analysis">
+          <!-- Native features -->
+          <p>My app was designed to take advantage of as many native features it could. I studied the IOS and Material guidelines for their respective app versions, and I worked with UI kits to make sure everything was as accurate as possible. I
+            worked with the dark theme colors because, based on my research, this seems favorable in gaming apps. I used orange as the accent color. I determined that strong branding was not a priority of this app, so I used a native orange color for
+            each device to take advantage of the benefits that provides.</p>
+          <div class="row">
+            <picture class="column-analysis">
               <source srcset="img/gameFeed/design/android.jpg" media="(max-width:1200px)">
               <img src="img/gameFeed/design/android.jpg" alt="Android">
             </picture>
-            <picture  class= "column-analysis">
+            <picture class="column-analysis">
               <source srcset="img/gameFeed/design/IOS.jpg" media="(max-width:1200px)">
               <img src="img/gameFeed/design/IOS.jpg" alt="IOS">
             </picture>
           </div>
         </div>
-          <!-- hpatic -->
-          <p>My app also makes use of haptic feedback and sound feedback, which I made notes of for developers.
-          </p>
-          <picture>
-            <source srcset="img/gameFeed/design/haptic.jpg" media="(max-width:1200px)">
-            <img src="img/gameFeed/design/haptic.jpg" alt="Notes on Haptic Design">
-          </picture>
-          <p>The results of the preference test showed me that people liked the idea of a 3 color scheme, as it provided more information, but they didn’t like how harsh the white/yellow/blue scheme looked. The results of the preference test showed
-            me
-            that people liked the idea of a 3 color scheme, as it provided more information, but they didn’t like how harsh the white/yellow/blue scheme looked. Taking this into consideration, as well as some personal reflection and peer advice, I
-            determined that the best solution would be to simplify the color scheme into 3 different shades of blue.
-          </p>
-        </div>
-      </div>
-      <!-- Finished Screens -->
-      <div>
-        <h2>Finished Screens and Prototype</h2>
-        <p><a href="#">Link to Interactive Prototype</a></p>
+        <!-- Hpatic -->
+        <p>My app also makes use of haptic feedback and sound feedback, which I made notes of for developers.
+        </p>
         <picture>
-          <source srcset="img/gameFeed/design/wireframeHighIOS.jpg" media="(max-width:1200px)">
-          <img src="img/gameFeed/design/wireframeHighIOS.jpg" alt="IOS Final Design">
-        </picture>
-        <picture>
-          <source srcset="img/gameFeed/design/wireframeHighAndroid.jpg" media="(max-width:1200px)">
-          <img src="img/gameFeed/design/wireframeHighAndroid.jpg" alt="Android Final Design">
+          <source srcset="img/gameFeed/design/haptic.jpg" media="(max-width:1200px)">
+          <img src="img/gameFeed/design/haptic.jpg" alt="Notes on Haptic Design">
         </picture>
       </div>
+    </div>
 
-      <!-- Mockups -->
-      <div>
-        <h3>Mockups</h3>
-        <p>I created mockups using Adobe Photoshop to give an idea as to what the application might look like in the real world.
-        </p>
-        <picture>
-          <source srcset="img/letsMeet/mockups/mockups.jpg" media="(max-width:1200px)">
-          <img src="img/letsMeet/mockups/mockups.jpg" alt="Mockups">
-        </picture>
-      </div>
-      <!-- Reflection -->
-      <div class="container">
-        <h3>Reflection</h3>
-        <p>This was my first time using native IOS and Material assets, which was a very interesting experience. While it does make for less creative liberty, I found workin with a more predetermined structure very satisfying and extremely helpful. I know not all apps will use as many native features as Game Feed, but creating an app that used almost exclusively native UI elements was a great way to learn about the advantages of using native UI and how to incorporate these features into my work.
-        </p>
-      </div>
+    <!-- Wireframe -->
+    <div class="container">
+      <h2>Wireframe</h2>
+      <p>I created low fidelity wireframes, then developed them to mid fidelity wireframes. During this process I developed my app’s visual design. I decided to use a format similar to online shopping, with the “Coming Soon” games made prominent with
+        their unique shapes because my app is largely focused on tracking upcoming games.
+      </p>
+      <picture>
+        <source srcset="img/gameFeed/design/wireframeDevelopment.jpg" media="(max-width:1200px)">
+        <img src="img/gameFeed/design/wireframeDevelopment.jpg" alt="Wireframe Development">
+      </picture>
+      <p>As I developed into high fidelity wireframes, I realized some flaws in my design. The main flaw was that I made the games’ images too small, making it hard to see what each game was. I corrected this and proceeded to develop my design.
+      </p>
+    </div>
+
+    <!-- Finished Screens -->
+    <div class="container">
+      <h2>Finished Screens and Prototype</h2>
+      <p><a href="#">Link to Interactive Prototype</a></p>
+      <picture>
+        <source srcset="img/gameFeed/design/wireframeHighIOS.jpg" media="(max-width:1200px)">
+        <img src="img/gameFeed/design/wireframeHighIOS.jpg" alt="IOS Final Design">
+      </picture>
+      <picture>
+        <source srcset="img/gameFeed/design/wireframeHighAndroid.jpg" media="(max-width:1200px)">
+        <img src="img/gameFeed/design/wireframeHighAndroid.jpg" alt="Android Final Design">
+      </picture>
+    </div>
+
+    <!-- Mockups -->
+    <div class="container">
+      <h3>Mockups</h3>
+      <p>I created mockups using Adobe Photoshop to give an idea as to what the application might look like in the real world.
+      </p>
+      <picture>
+        <source srcset="img/gameFeed/mockups/mockups.jpg" media="(max-width:1200px)">
+        <img src="img/gameFeed/mockups/mockups.jpg" alt="Mockups">
+      </picture>
+    </div>
+    <!-- Reflection -->
+    <div class="container">
+      <h3>Reflection</h3>
+      <p>This was my first time using native IOS and Material assets, which was a very interesting experience. While it does make for less creative liberty, I found workin with a more predetermined structure very satisfying and extremely helpful. I
+        know not all apps will use as many native features as Game Feed, but creating an app that used almost exclusively native UI elements was a great way to learn about the advantages of using native UI and how to incorporate these features into
+        my work.
+      </p>
     </div>
   </main>
 
@@ -205,7 +225,7 @@
     </div>
   </footer>
   <script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
