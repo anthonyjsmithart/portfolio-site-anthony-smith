@@ -1,4 +1,4 @@
-console.log ("Hello, welcome to my portfolio site.")
+console.log ("Hello, welcome to my portfolio site.");
 
 // hamburger menu
 function menuToggle() {
