@@ -1,4 +1,4 @@
-console.log ("Hello, welcome to my portfolio site.");
+console.log("Hello, welcome to my portfolio site.");
 
 // hamburger menu
 function menuToggle() {
@@ -11,6 +11,6 @@ function menuToggle() {
 }
 // turn the hamburger into an X
 $('#click_advance').click(function() {
-    $('#display_advance').toggle('1000');
-    $("i", this).toggleClass("fas fa-bars fas fa-x");
+  $('#display_advance').toggle('1000');
+  $("i", this).toggleClass("fas fa-bars fas fa-x");
 });
