@@ -1,5 +1,3 @@
-console.log("Hello, welcome to my portfolio site.");
-
 // hamburger menu
 function menuToggle() {
   var x = document.getElementById('myNavtoggle');

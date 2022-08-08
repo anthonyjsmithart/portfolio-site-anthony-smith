@@ -285,6 +285,16 @@ Medium devices (640px and larger)
     display: inline-block;
   }
 
+  .navtoggle.responsive nav {
+    padding: 0;
+  }
+
+  .navtoggle.responsive li {
+    display: block;
+    padding: 0;
+    border-top: 0;
+  }
+
   /* hamburger */
   .navtoggle li:not(:last-child) {
     display: inline-block;
@@ -313,10 +323,11 @@ Medium devices (640px and larger)
     width: 50%;
     float: left;
   }
-}
+
 
 .logo {
   max-width: 200px;
+}
 }
 
 /* ==============================
