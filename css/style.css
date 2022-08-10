@@ -41,7 +41,7 @@ font-weight: 400;
 
 /* images */
 img {
-  width: 100%
+  max-width: 100%
 }
 
 /* links */
@@ -269,9 +269,11 @@ main {
 
 /* about me photo */
 #myPhoto {
-  max-width:300px;
-  float: right;
+  max-width:100%;
+  float: left;
+  padding: 15px;
 }
+
 
 /* ==============================
 Medium devices (640px and larger)
@@ -325,9 +327,27 @@ Medium devices (640px and larger)
   }
 
 
-.logo {
-  max-width: 200px;
-}
+  .logo {
+    max-width: 200px;
+  }
+
+/* about me photo */
+  #myPhoto img {
+    max-width:300px;
+    float: right;
+  }
+
+  #personas img {
+    max-width: 80%;
+  }
+
+  #MVP img {
+    max-width: 70%;
+  }
+
+  #flows img {
+    max-width: 70%
+  }
 }
 
 /* ==============================
@@ -369,6 +389,7 @@ Large devices (1024px or larger)
   #about .col-md-6 {
     width: 100%;
   }
+
 }
 
 /* x-large breakpoint (1440px or larger)*/
